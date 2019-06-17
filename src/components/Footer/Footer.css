@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid red;
+}
+
+.footer-links {
+  flex-grow: 4;
+}
+
+.footer > .footer-join {
+  flex-grow: 1;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-links,
+.footer-join {
+  padding: 20px 10px;
+}
+
+.footer-links > div {
+  flex-grow: 1;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links a {
+  color: #595959;
+  font-weight: 700;
+}
+
+.footer-header {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}

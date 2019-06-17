@@ -1,0 +1,20 @@
+.thumbnail {
+  flex-direction: column;
+  min-height: 200px;
+  min-width: 300px;
+}
+
+.thumbnail > .thumbnail-content {
+  text-decoration: none;
+  background-size: cover;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.thumbnail-content > .thumbnail-title {
+  color: white;
+  background: linear-gradient(0deg, rgba(0,0,0,0.87718837535014) 26%, rgba(34,24,2,0.03125) 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
