@@ -1,0 +1,35 @@
+.weather-detail {
+  display: inline-block;
+  color: grey;
+}
+
+.weather-detail > * {
+  display: inline-block;
+}
+
+.weather-detail .city,
+.weather-detail .temp {
+  font-weight: bold;
+}
+
+.weather-detail .city {
+  color: black;
+  font-size: 21px;
+}
+
+.weather-detail .date,
+.weather-detail .time {
+  font-size: 18px;
+}
+
+.weather-detail .time {
+  font-style: italic;
+}
+
+.weather-detail .temp {
+  font-size: 20px;
+}
+
+.weather-detail > .info {
+  list-style: none;
+}

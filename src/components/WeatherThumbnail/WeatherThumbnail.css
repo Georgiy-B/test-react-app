@@ -3,25 +3,26 @@
   border-radius: 4%;
   border: 2px solid #615d5d38;
   padding: 5px;
+  cursor: pointer;
 }
 
-.weather-date,
-.weather-info,
-.weather-time {
+.weather-thumbnail > .date,
+.weather-thumbnail > .info,
+.weather-thumbnail > .time {
   color: grey;
 } 
 
-.weather-date,
-.weather-temp {
+.weather-thumbnail > .date,
+.weather-thumbnail > .temp {
   font-weight: bold;
 }
 
-.weather-info,
-.weather-time {
+.weather-thumbnail > .info,
+.weather-thumbnail > .time {
   font-size: 13px;
   font-style: italic;
 }
 
-.weather-info img {
+.weather-thumbnail > .info img {
   padding: 0 5px;
 }

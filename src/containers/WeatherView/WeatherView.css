@@ -1,11 +1,17 @@
+.weather-view {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .weather-view > * {
-  margin: auto;
+  margin: 20px auto;
 }
 
 .weather-view > .search-bar {
   width: 40%;
 }
 
-.weather-view > .weather-carousel {
-  width: 60%;
+.weather-view > .weather-detail-container {
+  display: flex;
+  justify-content: center;
 }

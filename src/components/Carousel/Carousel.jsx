@@ -42,7 +42,7 @@ class Carousel extends React.Component {
   }
 
   render() {
-    const hidden = this.props.children.length === 0;
+    const hidden = !!this.props.children && this.props.children.length === 0;
 
     return (
       <div className={`carousel-container ${this.props.className}`}>

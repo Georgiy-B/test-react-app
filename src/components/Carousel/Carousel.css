@@ -15,11 +15,11 @@
   background-color: #46454538;
 }
 
-.carousel {
+.carousel-container .carousel {
   overflow: hidden;
   flex-grow: 1;
 }
 
-.carousel > div {
+.carousel-container .carousel > div {
   width: max-content;
 }
