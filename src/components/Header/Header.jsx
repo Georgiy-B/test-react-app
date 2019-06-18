@@ -10,13 +10,13 @@ function Header() {
         <div className="header-motto">Ideas worth spreading</div>
       </div>
       <div className="header-links">
-        <Link>WATCH</Link>
-        <Link>DISCOVER</Link>
-        <Link>ATTEND</Link>
-        <Link>PARTICIPATE</Link>
-        <Link>ABOUT</Link>
-        <Link>LOG IN</Link>
-        <Link>Search</Link>
+        <Link to={`/weather`}>WEATHER</Link>
+        <a href="/">DISCOVER</a>
+        <a href="/">ATTEND</a>
+        <a href="/">PARTICIPATE</a>
+        <a href="/">ABOUT</a>
+        <a href="/">LOG IN</a>
+        <a href="/">Search</a>
       </div>
     </div>
   );

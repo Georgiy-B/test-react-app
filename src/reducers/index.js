@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import newsReducer from './news';
+import news from './news';
+import weather from './weather';
 
 const rootReducer = combineReducers({
-  news: newsReducer
+  news,
+  weather
 });
 
 export default rootReducer;

@@ -1,0 +1,25 @@
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-container > button {
+  border: none;
+  background: none;
+  opacity: 0.5;
+  padding: 0;
+}
+
+.carousel-container > button:hover {
+  opacity: 1;
+  background-color: #46454538;
+}
+
+.carousel {
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.carousel > div {
+  width: max-content;
+}

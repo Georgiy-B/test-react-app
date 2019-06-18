@@ -5,7 +5,7 @@ function ArticleThumbnail({ article }) {
   const imgBackground = {
     backgroundImage: `url(${article.urlToImage})`
   };
-  //Link
+
   return (
     <div className="thumbnail">
       <a

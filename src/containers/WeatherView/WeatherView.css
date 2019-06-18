@@ -1,0 +1,11 @@
+.weather-view > * {
+  margin: auto;
+}
+
+.weather-view > .search-bar {
+  width: 40%;
+}
+
+.weather-view > .weather-carousel {
+  width: 60%;
+}

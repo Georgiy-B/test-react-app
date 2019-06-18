@@ -15,11 +15,11 @@ class NewsView extends React.Component {
   }
 
   render() {
-    const hasErrorHappen = !!this.props.news.error;
+    const hasErrorHappened = !!this.props.news.error;
 
     return (
       <div className="news-view">
-        <ErrorDiv showErrorMessage={hasErrorHappen} />
+        <ErrorDiv showErrorMessage={hasErrorHappened} />
         <Loader showLoader={this.props.news.fetching} />
 
         <NewsGrid>
