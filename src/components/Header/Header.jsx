@@ -5,13 +5,13 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-      <div className="header-logo">
+      <Link to={'/'} className="header-logo">
         <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt=""/>
         <div className="header-motto">Ideas worth spreading</div>
-      </div>
+      </Link>
       <div className="header-links">
-        <Link to={`/weather`}>WEATHER</Link>
-        <a href="/">DISCOVER</a>
+        <Link to={`/weather`}>Weather</Link>
+        <a href={`/translator`}>Translator</a>
         <a href="/">ATTEND</a>
         <a href="/">PARTICIPATE</a>
         <a href="/">ABOUT</a>

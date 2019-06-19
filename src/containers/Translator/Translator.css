@@ -1,0 +1,95 @@
+.translator,
+.translator > .input-container > .tool-bar,
+.translator > .output-container > .tool-bar {
+  display: flex;
+}
+
+.translator > .input-container,
+.translator > .output-container {
+  flex: 1;
+}
+
+.translator > .input-container,
+.translator > .output-container {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.translator > .input-container {
+  border: 2px solid #e27a69a8;
+}
+
+.translator > .output-container {
+  border: 2px solid #2f2f2f47;
+}
+
+.translator > .input-container > textarea,
+.translator > .output-container > .translation {
+  font-size: 20px;
+}
+
+.translator > .input-container > .tool-bar,
+.translator > .output-container > .tool-bar  {
+  display: flex;
+}
+
+.translator > .input-container > .tool-bar > select,
+.translator > .output-container > .tool-bar > select {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #887575;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.translator > .input-container > .tool-bar > select:focus,
+.translator > .output-container > .tool-bar > select:focus {
+  outline: none;
+}
+
+.translator > .input-container > .tool-bar > select {
+  margin-left: auto;
+}
+
+.translator > .output-container > .tool-bar > select {
+  margin-right: auto;
+}
+
+.translator > .input-container > .tool-bar > button,
+.translator > .output-container > .tool-bar > button {
+  border: none;
+  background: none;
+  opacity: 0.7;
+}
+
+.translator > .input-container > .tool-bar > button:hover,
+.translator > .output-container > .tool-bar > button:hover {
+  opacity: 1;
+}
+
+
+.translator > .input-container > .tool-bar > button[disabled],
+.translator > .output-container > .tool-bar > button[disabled],
+.translator > .input-container > .tool-bar > button[disabled]:hover,
+.translator > .output-container > .tool-bar > button[disabled]:hover {
+  opacity: 0.2;
+}
+
+.translator > .input-container > textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+}
+
+.translator > .input-container > textarea:focus {
+  outline: none;
+}
+
+.translator > .output-container > .tool-bar {
+  flex-direction: row-reverse;
+}

@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
 import news from './news';
 import weather from './weather';
+import translator from './translator';
 
 const rootReducer = combineReducers({
   news,
-  weather
+  weather,
+  translator
 });
 
 export default rootReducer;
