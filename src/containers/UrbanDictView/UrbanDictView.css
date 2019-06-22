@@ -1,0 +1,8 @@
+.urban-dict-view {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.urban-dict-view > .urban-def-cards > .urban-def-card {
+  margin: 20px 0;
+}

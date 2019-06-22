@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import NewsView from '../../containers/NewsView/NewsView';
 import WeatherView from '../../containers/WeatherView/WeatherView';
 import TranslatorView from '../../containers/TranslatorView/TranslatorView';
+import UrbanDictView from '../../containers/UrbanDictView/UrbanDictView';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" component={NewsView} />
           <Route path="/weather" component={WeatherView} />
           <Route path="/translator" component={TranslatorView} />
+          <Route path="/urban/:term?" component={UrbanDictView} />
         </Switch>
       </main>
       <footer>

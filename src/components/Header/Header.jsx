@@ -11,8 +11,8 @@ function Header() {
       </Link>
       <div className="header-links">
         <Link to={`/weather`}>Weather</Link>
-        <a href={`/translator`}>Translator</a>
-        <a href="/">ATTEND</a>
+        <Link to={`/translator`}>Translator</Link>
+        <Link to={`/urban`}>Urban Dictinary</Link>
         <a href="/">PARTICIPATE</a>
         <a href="/">ABOUT</a>
         <a href="/">LOG IN</a>

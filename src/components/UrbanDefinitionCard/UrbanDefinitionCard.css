@@ -1,0 +1,36 @@
+.urban-def-card {
+  background-color: white;
+  padding: 32px 32px 10px 32px;
+}
+
+.urban-def-card > * {
+  margin: 20px 0;
+}
+
+.urban-def-card > .term {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.urban-def-card > .definition,
+.urban-def-card > .example,
+.urban-def-card > .author {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.urban-def-card > .author,
+.urban-def-card > .rating {
+  font-weight: bold;
+}
+
+.urban-def-card > .author {
+  text-decoration: none;
+}
+
+.urban-def-card > .rating > span {
+  padding: 5px;
+}

@@ -24,7 +24,7 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.onSearchClick} className={`input-group mb-3 ${this.props.className}`}>
+      <form onSubmit={this.onSearchClick} className={`input-group mb-3 ${this.props.className || ''}`}>
         <input
           type="text"
           value={this.state.searchString}
